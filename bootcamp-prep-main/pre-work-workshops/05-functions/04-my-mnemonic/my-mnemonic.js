@@ -2,7 +2,9 @@
 function myMnemonic(...strings) {
   let mnemonic = "";
   for (let i = 0; i < strings.length && mnemonic.length < 4; i++) {
-    mnemonic = mnemonic + strings[i][0];
+    let currval = strings[i];
+
+    mnemonic = mnemonic + currval[0];
   }
   return mnemonic.toUpperCase();
 }
