@@ -7,5 +7,5 @@ function defaultGreet(first, lastname) {
   }
 }
 
-console.log(defaultGreet(Natalie, Cole));
+console.log(defaultGreet("Chaka", "Khan"));
 // console.log(defaultGreet(john));
