@@ -1,7 +1,6 @@
 // YOUR CODE BELOW
 
 function taxCalculator(price, state) {
-  let taxRate = 0;
   if (state === "NY") {
     taxRate = 0.04;
   } else if (state === "NJ") {
