@@ -7,4 +7,4 @@ function greeting(name) {
   }
 }
 
-console.log(greeting("Layla!"));
+console.log(greeting("Layla"));
