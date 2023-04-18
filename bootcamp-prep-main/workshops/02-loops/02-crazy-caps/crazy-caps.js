@@ -12,4 +12,4 @@ function crazyCaps(string) {
   }
   return result;
 }
-console.log(crazyCaps(" i am manjila"));
+console.log(crazyCaps(" tej is amazing"));
