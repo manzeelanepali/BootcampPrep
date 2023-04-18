@@ -1,8 +1,13 @@
-// YOUR CODE BELOW
-function myOr(arg1, arg2, arg3) {
-  if ((arg1 && arg2 === true) || (arg2 && arg3 == true)) {
-    return true;
+function myOr(first, second, third) {
+  if (first || second || third) {
+    return first || second || third;
+  } else {
+    if (!first || second || third) {
+      return third;
+    }
   }
 }
 
-function myAnd(a, b, c) {}
+function myAnd(one, two, three) {
+  if (one && two && !three) return;
+}
