@@ -5,6 +5,8 @@ function onlyOdds(numbers) {
   for (let i = 1; i <= numbers; i++) {
     if (i % 2 === 1) {
       num += i;
+    } else if (i < 0) {
+      return 0;
     }
   }
   return num;
