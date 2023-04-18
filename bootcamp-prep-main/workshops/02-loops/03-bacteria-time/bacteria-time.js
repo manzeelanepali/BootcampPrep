@@ -6,11 +6,10 @@ function bacteriaTime(currentNum, targetNum) {
   }
 
   const doublingTime = 20; // in minutes
-  let numBacteria = currentNum;
   let timeElapsed = 0;
 
-  while (numBacteria < targetNum) {
-    numBacteria *= 2;
+  while (currentNum < targetNum) {
+    currentNum *= 2;
     timeElapsed += doublingTime;
   }
 
