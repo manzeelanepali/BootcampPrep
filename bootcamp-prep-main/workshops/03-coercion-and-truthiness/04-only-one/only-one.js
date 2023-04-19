@@ -11,7 +11,7 @@ function onlyOne(one, two, three) {
   debugger;
 
   if (
-    (!one && !two && three) || ///niru ko code
+    (!one && !two && three) || ///niru
     (!one && two && !three) ||
     (one && !two && !three)
   ) {
