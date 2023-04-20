@@ -1,6 +1,7 @@
 ### Make Grid
 
 Write a function `makeGrid` that accepts two arguments:
+
 1. numColumns (number)
 2. numRows (number)
 
@@ -8,7 +9,7 @@ Write a function `makeGrid` that accepts two arguments:
 given dimensions.
 
 ```javascript
-makeGrid(3,4);
+makeGrid(3,4); |_
 /* => [[1, 2, 3],
        [1, 2, 3],
        [1, 2, 3],
