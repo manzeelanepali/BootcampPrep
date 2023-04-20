@@ -1,7 +1,7 @@
 // YOUR CODE BELOW
 function arrayFlattener(array) {
   let newArray = [];
-  debugger;
+
   for (let i = 0; i < array.length; i++) {
     let curVal = array[i];
     if (Array.isArray(curVal)) {

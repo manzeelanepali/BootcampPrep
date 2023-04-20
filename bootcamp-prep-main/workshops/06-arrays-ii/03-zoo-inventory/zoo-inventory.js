@@ -2,6 +2,7 @@
 function zooInventory(array) {
   //   function zooInventory(array) {
   let result = [];
+  debugger;
   for (let i = 0; i < array.length; i++) {
     let animal = array[i][0];
     let type = array[i][1][0];
@@ -12,10 +13,8 @@ function zooInventory(array) {
   return result;
 }
 
-console.log(
-  zooInventory([
-    ["King Kong", ["gorilla", 42]],
-    ["Nemo", ["fish", 5]],
-    ["Punxsutawney Phil", ["groundhog", 11]],
-  ])
-);
+let myZoo = [
+  ["King Kong", ["gorilla", 42]],
+  ["Nemo", ["fish", 5]],
+  ["Punxsutawney Phil", ["groundhog", 11]],
+];
