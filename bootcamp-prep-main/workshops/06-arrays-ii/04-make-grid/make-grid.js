@@ -12,4 +12,4 @@ function makeGrid(column, row) {
   return grid;
 }
 
-console.log(makeGrid(3, 4));
+// console.log(makeGrid(3, 4));
