@@ -5,3 +5,21 @@ function lastFridayNight(transactions) {
   }
   return totalAmount;
 }
+// let transactions = [
+//     {
+//       name: "Tons of glitter",
+//       amount: 70
+//     },
+//     {
+//       name: "Porcelain Pink Flamingos",
+//       amount: 92
+//     },
+//     {
+//       name: "Chandelier replacement",
+//       amount: 10000,
+//     },
+//     {
+//       name: "Dinner at TGIF x6",
+//       amount: 350
+//     }
+//   ];
